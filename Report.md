@@ -72,9 +72,9 @@ For details about how I created the training data, see the next section.
 
 The overall strategy for deriving a model architecture was to reduce validation loss.
 
-In the beginning, I implemented LeNet without data augmention and trained the model util validation loss (~3 epoches) got stable. But the simulation result is terrible. The car cannot make it in the first turn. After using all the data augmention tricks, the model can already complete track one.
+In the beginning, I implemented LeNet without data augmention and trained the model util validation loss (~3 epoches) got stable. But the simulation result is terrible. The car cannot make it in the first turn. After using all the data augmention tricks, the model can already complete the track one.
 
-Then I switched to a deeper architecture as suggested (the Nvidia one). I found outh I need more epoches (~7 epoches) to train. Both training and validation loss decreases, and the vehicle is still able to drive autonomously around the track without leaving the road.
+Then I switched to a deeper architecture as suggested (the Nvidia one). I found out I need more epoches (~8 epoches) to train. Both training and validation loss decreases, and the vehicle is still able to drive autonomously around the track without leaving the road.
 
 #### 2. Final Model Architecture
 
